@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+* {
+  box-sizing: border-box;
+  font-family: 'Fira Sans';
+}
+/*avatar*/
+.avatar {
+  box-sizing: border-box;
+  img.avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+
+  span.profile {
+    margin: 20px;
+    padding-left: 6px;
+  }
+}
+/*blog*/
+
+div.blog {
+  margin: 5%;
+  fieldset.quote {
+    border: 1px solid black;
+    border-radius: 30px;
+    cite {
+      margin: 5px;
+      color:rgb(186, 184, 184);
+      font-size: 9px;
+    }
+    p {
+      color: rgb(95, 95, 95);
+    }
+    p.refer {
+      font-size: 9px;
+      font-style: italic;
+    }
+  }
+}
